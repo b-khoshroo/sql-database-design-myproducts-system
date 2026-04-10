@@ -22,9 +22,12 @@ The project was executed through seven distinct phases:
 <b>1. Database Design & Modeling</b>
 * <b>Conceptual Design</b>: Created a comprehensive ER Diagram to represent all entities and their relationships.
 
-![ER Diagram](DOCS/ER_Diagram_1.jpg)
+![ER Diagram](DOCS/ER_Diagram_img_1.jpg)
+![ER Diagram](DOCS/ER_Diagram_img_2.jpg)
 
 * <b>Logical Design</b>: Developed a relational schema and a Schema Diagram mapping all foreign key dependencies.
+
+![ER Diagram](DOCS/Relational_Schema_img.jpg)
 
 <b>2. Storage & Performance Optimization</b>
 * <b>Storage Analysis</b>: Evaluated appropriate file organizations (e.g., B+ Trees, Hashing) by analyzing query frequencies, such as high-volume worker product retrievals (2,000/day).
